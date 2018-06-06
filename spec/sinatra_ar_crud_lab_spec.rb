@@ -76,7 +76,7 @@ describe "Blog Post App" do
 
 
     it 'responds with a 200 status code' do
-      get "/posts/#{@post2.id}/edit"
+      get "/posts/#{@po st2.id}/edit"
       expect(last_response.status).to eq(200)
     end
 
